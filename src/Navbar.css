@@ -1,0 +1,48 @@
+.navbar-container {
+	width: 65%;
+	height: 10%;
+	color: black;
+	background-color: rgba(255, 255, 255, 0.6);
+	margin-top: 3em;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.navbar-logo {
+	margin-left: 5em;
+}
+
+.navbar-home {
+	margin-left: 10em;
+}
+
+.navbar-services {
+	margin-left: 5em;
+}
+
+.navbar-about {
+	margin-left: 5em;
+}
+
+.navbar-contact {
+	margin-left: 5em;
+}
+
+.navbar-number {
+	margin-left: 5em;
+}
+
+.navbar-fb {
+	margin-left: 5em;
+}
+
+.navbar-ig {
+	margin-left: 1em;
+}
+
+.navbar-li {
+	margin-left: 1em;
+}
