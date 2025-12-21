@@ -1,48 +1,71 @@
+/* ---------- Navbar ---------- */
 .navbar-container {
-	width: 65%;
-	height: 10%;
-	color: black;
+	width: 100%;
+	max-width: 1200px;
+	margin: 2rem auto 0;
+	padding: 0.5rem 1rem;
+
 	background-color: rgba(255, 255, 255, 0.6);
-	margin-top: 3em;
-	border-radius: 10px;
+	backdrop-filter: blur(8px);
+	border-radius: 12px;
+
 	display: flex;
-	justify-content: center;
 	align-items: center;
-	flex-direction: row;
+	justify-content: space-between;
+	gap: 1rem;
 }
 
-.navbar-logo {
-	margin-left: 5em;
+/* ---------- Navbar groups ---------- */
+.navbar-left,
+.navbar-center,
+.navbar-right {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
 }
 
-.navbar-home {
-	margin-left: 10em;
+/* ---------- Navbar links ---------- */
+.navbar-link {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+	padding: 0.6rem 1rem;
+	border-radius: 8px;
+
+	font-weight: 600;
+	text-decoration: none;
+	color: black;
+
+	cursor: pointer;
+	transform-origin: center;
+
+	transition: transform 0.18s ease, color 0.2s ease, background-color 0.2s ease,
+		box-shadow 0.2s ease;
 }
 
-.navbar-services {
-	margin-left: 5em;
+.navbar-link:hover {
+	transform: scale(1.05) translateY(-2px);
+	color: red;
 }
 
-.navbar-about {
-	margin-left: 5em;
+/* ---------- Social icons ---------- */
+.navbar-social {
+	padding: 0.5rem;
+	font-size: 1.1rem;
 }
 
-.navbar-contact {
-	margin-left: 5em;
-}
+/* ---------- Mobile behavior ---------- */
+@media (max-width: 768px) {
+	.navbar-container {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
 
-.navbar-number {
-	margin-left: 5em;
-}
-
-.navbar-fb {
-	margin-left: 5em;
-}
-
-.navbar-ig {
-	margin-left: 1em;
-}
-
-.navbar-li {
-	margin-left: 1em;
+	.navbar-left,
+	.navbar-center,
+	.navbar-right {
+		justify-content: center;
+		flex-wrap: wrap;
+	}
 }
