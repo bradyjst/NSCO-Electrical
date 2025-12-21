@@ -30,7 +30,11 @@ export const HomePage: React.FC = () => {
 		<div className="homepage-container">
 			<div className="homepage-image-container">
 				<Navbar></Navbar>
-				<h1 className="homepage-image-h1">NSCO Electric</h1>
+				<div className="homepage-image-content">
+					<h1 className="homepage-image-h1">NSCO Electric</h1>
+					<h2 className="homepage-image-h2">Call for an appointment today!</h2>
+					<h3 className="homepage-image-h3">1-778-344-2686</h3>
+				</div>
 			</div>
 			<div className="homepage-services-container">
 				<h1 className="homepage-h1">Services</h1>
@@ -111,8 +115,8 @@ export const HomePage: React.FC = () => {
 				<div className="footer-content">
 					<span className="footer-name">NSCO Electric</span>
 
-					<a href="tel:16045551234" className="footer-link">
-						(604) 555-1234
+					<a href="tel:1-778-344-2686" className="footer-link">
+						1-778-344-2686
 					</a>
 
 					<a href="mailto:info@nscoelectric.com" className="footer-link">
