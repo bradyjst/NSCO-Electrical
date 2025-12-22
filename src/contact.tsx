@@ -1,5 +1,10 @@
-import ReactDOM from "react-dom/client";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 import { ContactPage } from "./pages/ContactPage";
 import "./index.css";
 
-ReactDOM.createRoot(document.getElementById("root")!).render(<ContactPage />);
+createRoot(document.getElementById("root")!).render(
+	<StrictMode>
+		<ContactPage />
+	</StrictMode>
+);
