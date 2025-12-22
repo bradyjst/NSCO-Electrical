@@ -15,7 +15,7 @@
 	width: 100%;
 	max-width: 1200px;
 	margin: 2rem 0 0 0;
-	padding: 0.5rem 1rem;
+	padding: 0.5rem 0rem;
 	background-color: rgba(150, 150, 150, 0.6);
 	backdrop-filter: blur(8px);
 	border-radius: 12px;
