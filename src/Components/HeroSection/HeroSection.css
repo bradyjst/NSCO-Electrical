@@ -7,13 +7,28 @@
 	background-image: url("/hero.jpg");
 	background-size: cover;
 	background-position: center;
+	border-bottom: 1px solid black;
 	filter: brightness(0.8);
+}
+
+.h-container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 2rem 0 0 0;
+	padding: 0.5rem 1rem;
+	background-color: rgba(150, 150, 150, 0.7);
+	backdrop-filter: blur(8px);
+	border-radius: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 
 .homepage-image-content {
 	width: 100%;
 	max-width: 1200px;
-	margin: 0 auto;
+	margin: 2rem auto;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -23,11 +38,15 @@
 .homepage-image-h1,
 .homepage-image-h2,
 .homepage-image-h3 {
+	margin: 0.5em;
 	color: white;
-	font-weight: 700;
+	font-weight: 500;
 	text-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
 }
 
+.homepage-image-h2 {
+	font-size: 1em;
+}
 .homepage-image-h1 {
 	font-size: clamp(2.5rem, 5vw, 4rem);
 }
@@ -38,4 +57,16 @@
 
 .homepage-image-h3 {
 	font-size: clamp(2.5rem, 5vw, 4rem);
+}
+
+.hero-link {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.35rem;
+	font-weight: 600;
+	color: #111;
+	text-decoration: none;
+	position: relative;
+	padding-bottom: 2px;
+	transition: color 0.2s ease;
 }

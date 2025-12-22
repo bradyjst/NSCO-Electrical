@@ -30,7 +30,7 @@ const SERVICES = [
 
 export const ServicesSection = () => {
 	return (
-		<section className="homepage-services-container">
+		<section className="homepage-services-container reveal">
 			<h1 className="homepage-h1">Services</h1>
 			<div className="homepage-services">
 				{SERVICES.map((service) => (

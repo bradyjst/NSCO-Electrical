@@ -1,0 +1,37 @@
+.review-card {
+	background: white;
+	border-radius: 14px;
+	padding: 1.5rem;
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+	transition: transform 0.15s ease, box-shadow 0.2s ease;
+}
+
+.review-card:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 14px 35px rgba(0, 0, 0, 0.2);
+}
+
+.review-header {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin-bottom: 1rem;
+}
+
+.review-header img {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.stars {
+	color: #f5b301;
+	font-size: 1rem;
+}
+
+.review-text {
+	color: #444;
+	line-height: 1.6;
+	font-style: italic;
+}

@@ -9,10 +9,18 @@ export const Navbar: React.FC = () => {
 			</div>
 
 			<div className="navbar-center">
-				<a className="navbar-link">Home</a>
-				<a className="navbar-link">Services</a>
-				<a className="navbar-link">About</a>
-				<a className="navbar-link">Contact</a>
+				<a href="/" className="navbar-link">
+					Home
+				</a>
+				<a href="/services.html" className="navbar-link">
+					Services
+				</a>
+				<a href="/about.html" className="navbar-link">
+					About
+				</a>
+				<a href="/contact.html" className="navbar-link">
+					Contact
+				</a>
 			</div>
 
 			<div className="navbar-right">
