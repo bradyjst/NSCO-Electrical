@@ -9,7 +9,7 @@ export const Navbar: React.FC = () => {
 			</div>
 
 			<div className="navbar-center">
-				<a href="/" className="navbar-link">
+				<a href="/index.html" className="navbar-link">
 					Home
 				</a>
 				<a href="/services.html" className="navbar-link">
