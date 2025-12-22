@@ -1,0 +1,37 @@
+/* components/ServiceCard/ServiceCard.css */
+
+.service-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	background: white;
+	border-radius: 14px;
+	padding: 1.5rem;
+
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+	transition: transform 0.1s ease, box-shadow 0.2s ease;
+}
+
+.service-card:hover {
+	transform: translateY(-6px);
+	box-shadow: 0 18px 45px rgba(0, 0, 0, 0.15);
+}
+
+.service-card img {
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.service-card h3 {
+	margin-top: 1rem;
+}
+
+.service-card p {
+	color: #555;
+	line-height: 1.6;
+	margin-top: 0.75rem;
+	text-align: center;
+}
