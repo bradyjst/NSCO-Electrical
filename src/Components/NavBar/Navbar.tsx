@@ -18,7 +18,10 @@ export const Navbar: React.FC = () => {
 				<a href="/about.html" className="navbar-link">
 					About
 				</a>
-				<a href="/contact.html" className="navbar-link">
+				<a
+					href="https://nscoelectric.netlify.app/contact.html"
+					className="navbar-link"
+				>
 					Contact
 				</a>
 			</div>
