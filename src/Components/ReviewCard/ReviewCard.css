@@ -6,9 +6,14 @@
 	padding: 1.5rem 1.5rem 0rem 1.5rem;
 	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 	transition: transform 0.15s ease, box-shadow 0.2s ease;
+	text-decoration: none;
 }
 
-.review-card:hover {
+.review-card-link {
+	text-decoration: none;
+}
+
+.review-card-link .review-card:hover {
 	transform: translateY(-4px);
 	box-shadow: 0 14px 35px rgba(0, 0, 0, 0.2);
 }
