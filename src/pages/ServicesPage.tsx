@@ -1,6 +1,6 @@
 import { Layout } from "../Components/Layout/Layout";
-import { HeroSection } from "../Components/HeroSection/HeroSection";
-import { ServicesSection } from "../Components/ServiceSection/ServiceSection";
+import { HeroSection } from "../Sections/HeroSection/HeroSection";
+import { ServicesSection } from "../Sections/ServiceSection/ServiceSection";
 
 export const ServicesPage = () => {
 	return (

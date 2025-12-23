@@ -1,5 +1,5 @@
 import "./HeroSection.css";
-import { Navbar } from "../NavBar/Navbar";
+import { Navbar } from "../../Components/NavBar/Navbar";
 export const HeroSection = () => {
 	return (
 		<section className="homepage-image-container">

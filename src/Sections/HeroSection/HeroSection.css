@@ -16,7 +16,7 @@
 	max-width: 1200px;
 	margin: 2rem 0 0 0;
 	padding: 0.5rem 0rem;
-	background-color: rgba(150, 150, 150, 0.6);
+	background-color: rgba(255, 255, 255, 0.6);
 	backdrop-filter: blur(8px);
 	border-radius: 12px;
 	display: flex;
@@ -39,9 +39,9 @@
 .homepage-image-h2,
 .homepage-image-h3 {
 	margin: 0.5em;
-	color: white;
+	color: black;
 	font-weight: 500;
-	text-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+	text-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .homepage-image-h2 {
@@ -64,10 +64,11 @@
 	align-items: center;
 	gap: 0.35rem;
 	font-weight: 400;
-	color: #999;
+	color: black;
 	text-decoration: none;
-	background-color: blue;
+	background-color: white;
 	border-radius: 20px;
+	border: 1px solid black;
 	position: relative;
 	padding: 10px;
 	transition: color 0.2s ease;
@@ -76,5 +77,6 @@
 .hero-link:hover {
 	transform: scale(1.05);
 	background-color: #000;
+	border: 1px solid white;
 	color: #fff;
 }

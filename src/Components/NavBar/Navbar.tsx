@@ -12,9 +12,6 @@ export const Navbar: React.FC = () => {
 				<a href="/index.html" className="navbar-link">
 					Home
 				</a>
-				<a href="/services.html" className="navbar-link">
-					Services
-				</a>
 				<a href="/about.html" className="navbar-link">
 					About
 				</a>
@@ -24,13 +21,13 @@ export const Navbar: React.FC = () => {
 			</div>
 
 			<div className="navbar-right">
-				<a className="navbar-link navbar-social">
+				<a className="navbar-link-nohover navbar-social">
 					<img src="facebook.avif" />
 				</a>
-				<a className="navbar-link navbar-social">
+				<a className="navbar-link-nohover navbar-social">
 					<img src="instagram.avif" />
 				</a>
-				<a className="navbar-link navbar-social">
+				<a className="navbar-link-nohover navbar-social">
 					<img src="linkedin.avif" />
 				</a>
 			</div>

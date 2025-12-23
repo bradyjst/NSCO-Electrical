@@ -2,7 +2,8 @@
 
 .map-section {
 	width: 100%;
-	background-color: #555;
+	background-color: #f6f6f6;
+	margin-top: 1rem;
 	padding: 4rem 0;
 }
 
@@ -14,7 +15,7 @@
 }
 
 .map-container h2 {
-	color: white;
+	color: black;
 	margin-bottom: 2rem;
 }
 

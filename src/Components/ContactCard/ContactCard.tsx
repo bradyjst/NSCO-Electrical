@@ -17,10 +17,6 @@ export const ContactCard: React.FC = () => {
 						loading="lazy"
 					/>
 				</div>
-
-				<p className="contact-alt">
-					Prefer to call? <a href="tel:1-778-344-2686">1-778-344-2686</a>
-				</p>
 			</div>
 		</>
 	);

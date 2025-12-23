@@ -44,9 +44,10 @@
 }
 
 @media (max-width: 768px) {
-	.footer-container {
+	.footer-content {
 		flex-wrap: wrap;
 		justify-content: center;
+		flex-direction: column;
 	}
 
 	.footer-left,

@@ -3,7 +3,7 @@ export const MapSection = () => {
 	return (
 		<section className="map-section">
 			<div className="map-container">
-				<h2>Trusted by Local Customers</h2>
+				<h2>Our Location in Maple Ridge</h2>
 
 				<div className="reviews-embed">
 					<iframe

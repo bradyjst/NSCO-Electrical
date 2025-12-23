@@ -1,5 +1,5 @@
 import "./ServiceSection.css";
-import { ServiceCard } from "../ServiceCard/ServiceCard";
+import { ServiceCard } from "../../Components/ServiceCard/ServiceCard";
 
 const SERVICES = [
 	{

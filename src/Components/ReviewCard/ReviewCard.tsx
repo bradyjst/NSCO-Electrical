@@ -1,3 +1,5 @@
+import "./ReviewCard.css";
+
 type ReviewCardProps = {
 	name: string;
 	rating: string;
@@ -10,7 +12,8 @@ export const ReviewCard = ({ name, rating, text, avatar }: ReviewCardProps) => {
 		<div className="review-card reveal">
 			<div className="review-header">
 				{avatar && <img src={avatar} alt={name} />}
-				<div>
+
+				<div className="review-meta">
 					<strong>{name}</strong>
 					<div className="stars">{rating}</div>
 				</div>

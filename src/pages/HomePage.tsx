@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import { Layout } from "../Components/Layout/Layout";
-import { HeroSection } from "../Components/HeroSection/HeroSection";
-import { MapSection } from "../Components/MapSection/MapSection";
-import { ReviewsSection } from "../Components/ReviewSection/ReviewSection";
-import { ServicesSection } from "../Components/ServiceSection/ServiceSection";
+import { HeroSection } from "../Sections/HeroSection/HeroSection";
+import { TalkingSection } from "../Sections/TalkingSection/TalkingSection";
+import { ReviewsSection } from "../Sections/ReviewSection/ReviewSection";
+import { ServicesSection } from "../Sections/ServiceSection/ServiceSection";
 import "../animations.css";
 
 export const HomePage = () => {
@@ -28,7 +28,7 @@ export const HomePage = () => {
 		<Layout>
 			<HeroSection />
 			<ServicesSection />
-			<MapSection />
+			<TalkingSection />
 			<ReviewsSection />
 		</Layout>
 	);

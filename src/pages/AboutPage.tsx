@@ -1,18 +1,14 @@
 import { Layout } from "../Components/Layout/Layout";
-import { HeroSection } from "../Components/HeroSection/HeroSection";
+import { MapSection } from "../Sections/MapSection/MapSection";
+import { Navbar } from "../Components/NavBar/Navbar";
+import { CoverageAreas } from "../Components/CoverageList/CoverageAreas";
 
 export const AboutPage = () => {
 	return (
 		<Layout>
-			<HeroSection />
-			<section
-				style={{ padding: "4rem 1rem", maxWidth: "800px", margin: "0 auto" }}
-			>
-				<p>
-					NSCO Electric is a licensed and insured electrical contractor serving
-					the local community with reliable, high-quality work.
-				</p>
-			</section>
+			<Navbar />
+			<MapSection />
+			<CoverageAreas />
 		</Layout>
 	);
 };
