@@ -63,10 +63,18 @@
 	display: inline-flex;
 	align-items: center;
 	gap: 0.35rem;
-	font-weight: 600;
-	color: #111;
+	font-weight: 400;
+	color: #999;
 	text-decoration: none;
+	background-color: blue;
+	border-radius: 20px;
 	position: relative;
-	padding-bottom: 2px;
+	padding: 10px;
 	transition: color 0.2s ease;
+}
+
+.hero-link:hover {
+	transform: scale(1.05);
+	background-color: #000;
+	color: #fff;
 }

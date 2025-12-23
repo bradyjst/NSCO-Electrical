@@ -5,7 +5,7 @@ export const Navbar: React.FC = () => {
 	return (
 		<nav className="navbar-container">
 			<div className="navbar-left">
-				<a className="navbar-link">Logo</a>
+				<a className="navbar-link-nohover">NSCO Electric</a>
 			</div>
 
 			<div className="navbar-center">

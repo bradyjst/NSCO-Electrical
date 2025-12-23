@@ -7,10 +7,9 @@
 	border-radius: 14px;
 
 	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
-	transition: transform 0.1s ease, box-shadow 0.2s ease;
 }
 
-.service-card:hover {
+.service-card img:hover {
 	transform: translateY(-6px);
 	box-shadow: 0 18px 45px rgba(0, 0, 0, 0.15);
 }
@@ -20,6 +19,7 @@
 	aspect-ratio: 16 / 9;
 	object-fit: cover;
 	border-radius: 10px;
+	transition: transform 0.1s ease, box-shadow 0.2s ease;
 }
 
 .service-card h3 {
