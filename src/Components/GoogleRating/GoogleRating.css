@@ -1,11 +1,12 @@
 .google-rating-section {
 	width: 100%;
-	padding: 3rem 1rem;
 	background-color: #fff;
+	margin-bottom: 1rem;
 }
 
 .google-rating-container {
 	max-width: 900px;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -21,12 +22,16 @@
 .google-rating-container h2 {
 	font-size: clamp(1.75rem, 4vw, 2.25rem);
 	margin-bottom: 0.5rem;
+	text-align: center;
 	color: #111;
 }
 
 .google-rating-container p {
 	color: #555;
+	width: 100%;
 	font-size: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 3rem;
 }
 
 .google-avatar {
@@ -35,4 +40,5 @@
 	border-radius: 50%;
 	object-fit: cover;
 	margin-bottom: 1rem;
+	margin-top: 2rem;
 }

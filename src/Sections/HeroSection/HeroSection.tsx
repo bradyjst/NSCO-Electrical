@@ -14,6 +14,7 @@ export const HeroSection = () => {
 							BOOK NOW
 						</a>{" "}
 					</h3>
+					<h3>For electrical emergencies, please call:</h3>
 					<h3 className="homepage-image-h3">1-778-344-2686</h3>
 				</div>
 			</div>

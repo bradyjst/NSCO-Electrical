@@ -37,8 +37,12 @@
 }
 
 .stars {
-	color: purple;
-	font-size: 1rem;
+	font-size: 1.5rem;
+	color: #f5b301;
+	letter-spacing: 2px;
+	display: block;
+
+	margin-top: 0.5rem;
 }
 
 .review-text {
