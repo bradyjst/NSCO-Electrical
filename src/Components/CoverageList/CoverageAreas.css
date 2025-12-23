@@ -1,6 +1,6 @@
 .coverage-section {
 	width: 100%;
-	padding: 4rem 1rem;
+	margin: 4rem 1rem;
 	background-color: #fff;
 }
 
@@ -30,7 +30,6 @@
 	font-size: 2rem;
 	font-weight: 500;
 	color: #333;
-	padding: 0.25rem 0;
 	background: none;
 	border-radius: 0;
 }
