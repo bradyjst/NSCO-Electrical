@@ -5,6 +5,8 @@ import { TalkingSection } from "../Sections/TalkingSection/TalkingSection";
 import { ReviewsSection } from "../Sections/ReviewSection/ReviewSection";
 import { ServicesSection } from "../Sections/ServiceSection/ServiceSection";
 import "../animations.css";
+import { CoverageAreas } from "../Components/CoverageList/CoverageAreas";
+import { MapSection } from "../Sections/MapSection/MapSection";
 
 export const HomePage = () => {
 	useEffect(() => {
@@ -29,6 +31,8 @@ export const HomePage = () => {
 			<HeroSection />
 			<ServicesSection />
 			<TalkingSection />
+			<CoverageAreas />
+			<MapSection />
 			<ReviewsSection />
 		</Layout>
 	);

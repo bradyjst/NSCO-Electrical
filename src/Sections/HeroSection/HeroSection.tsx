@@ -6,9 +6,7 @@ export const HeroSection = () => {
 			<div className="homepage-image-content">
 				<Navbar />
 				<div className="h-container">
-					<h2 className="homepage-image-h2">
-						Licensed FSR Electrician in Maple Ridge
-					</h2>
+					<h2 className="homepage-image-h2">Licensed FSR Electrician</h2>
 					<h3 className="homepage-image-h3">
 						<a className="hero-link" href="/contact">
 							BOOK NOW

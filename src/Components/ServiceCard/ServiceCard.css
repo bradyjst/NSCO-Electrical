@@ -5,13 +5,18 @@
 	color: black;
 	background-color: white;
 	border-radius: 14px;
-
 	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
 }
 
-.service-card img:hover {
-	transform: translateY(-6px);
-	box-shadow: 0 18px 45px rgba(0, 0, 0, 0.15);
+.service-card-link {
+	display: block;
+	text-decoration: none;
+	transition: transform 0.15s ease, box-shadow 0.2s ease;
+}
+
+.service-card-link:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 14px 35px rgba(0, 0, 0, 0.2);
 }
 
 .service-card img {
@@ -19,7 +24,6 @@
 	aspect-ratio: 16 / 9;
 	object-fit: cover;
 	border-radius: 10px;
-	transition: transform 0.1s ease, box-shadow 0.2s ease;
 }
 
 .service-card h3 {
@@ -32,4 +36,8 @@
 	margin: 1.5rem;
 	text-align: center;
 	color: black;
+}
+
+.service-card-link {
+	text-decoration: none;
 }

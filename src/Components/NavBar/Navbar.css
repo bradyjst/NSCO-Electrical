@@ -12,6 +12,11 @@
 	gap: 1rem;
 }
 
+.logo {
+	max-width: 50px;
+	max-height: 50px;
+}
+
 .navbar-left,
 .navbar-center,
 .navbar-right {
@@ -58,6 +63,15 @@
 .navbar-social {
 	padding: 0.5rem;
 	font-size: 1.1rem;
+}
+
+.navbar-button {
+	background: none;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	padding: 0.6rem 1rem;
+	font-weight: 600;
 }
 
 @media (max-width: 768px) {

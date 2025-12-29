@@ -29,7 +29,7 @@ const REVIEWS = [
 export const ReviewsSection = () => {
 	return (
 		<section className="reviews-section">
-			<h2>What Our Customers Say</h2>
+			<h2 className="reviews-section-h2">What Our Customers Say</h2>
 
 			<GoogleRating />
 
@@ -45,7 +45,7 @@ export const ReviewsSection = () => {
 				rel="noopener noreferrer"
 				className="link-btn"
 			>
-				Read our Google Reviews
+				<h2 className="reviews-section-h2"> Read our Google Reviews </h2>
 			</a>
 		</section>
 	);
