@@ -17,7 +17,7 @@ export const ResidentialPage = () => {
 
 			<TextBlock>
 				<p>
-					At NSCOELECTRIC, we understand that your home is your sanctuary. Our
+					At NSCO Electric, we understand that your home is your sanctuary. Our
 					residential electrical services are designed to enhance the safety,
 					efficiency, and convenience of your home. From lighting installations
 					and electrical panel upgrades to wiring repairs and home automation
@@ -32,12 +32,12 @@ export const ResidentialPage = () => {
 			/>
 			<TextBlock>
 				<p>
-					At NSCO ELECTRIC, we prioritize the safety, efficiency, and comfort of
-					your home. Our residential electrical services are designed to enhance
-					your living space by providing reliable solutions for lighting
-					installations, electrical panel upgrades, wiring repairs, and home
-					automation integration. With our skilled professionals, you can trust
-					that your electrical systems are in expert hands, ensuring optimal
+					We prioritize the safety, efficiency, and comfort of your home. Our
+					residential electrical services are designed to enhance your living
+					space by providing reliable solutions for lighting installations,
+					electrical panel upgrades, wiring repairs, and home automation
+					integration. With our skilled professionals, you can trust that your
+					electrical systems are in expert hands, ensuring optimal
 					functionality, reduced energy costs, and a safer, more convenient
 					environment for you and your family. Let us help create a brighter,
 					more efficient home that meets all your electrical needs.

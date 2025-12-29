@@ -34,9 +34,9 @@ export const EvChargersPage = () => {
 			/>
 			<TextBlock>
 				<p>
-					At NSCO, we specialize in the professional installation of Electric
-					Vehicle (EV) chargers, providing homeowners and businesses with
-					reliable, efficient, and safe charging solutions. Our certified
+					At NSCO electric, we specialize in the professional installation of
+					Electric Vehicle (EV) chargers, providing homeowners and businesses
+					with reliable, efficient, and safe charging solutions. Our certified
 					electricians ensure that your EV charger is installed according to
 					local codes and safety standards, offering you peace of mind and
 					convenience. Whether you’re upgrading your home or business to

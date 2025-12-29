@@ -34,7 +34,7 @@ export const CommercialPage = () => {
 			/>
 			<TextBlock>
 				<p>
-					At NSCO ELECTRIC, our commercial electrical services are designed to
+					At NSCO Electric, our commercial electrical services are designed to
 					keep your business powered, efficient, and running smoothly. We
 					provide tailored electrical solutions that ensure minimal disruptions,
 					enhance safety, and optimize performance for your commercial

@@ -35,7 +35,7 @@ export const Navbar: React.FC = () => {
 				</div>
 
 				<div className="navbar-right">
-					<a className="navbar-link-nohover navbar-social">
+					{/* <a className="navbar-link-nohover navbar-social">
 						<img src="facebook.avif" />
 					</a>
 					<a className="navbar-link-nohover navbar-social">
@@ -43,7 +43,7 @@ export const Navbar: React.FC = () => {
 					</a>
 					<a className="navbar-link-nohover navbar-social">
 						<img src="linkedin.avif" />
-					</a>
+					</a> */}
 				</div>
 			</nav>
 

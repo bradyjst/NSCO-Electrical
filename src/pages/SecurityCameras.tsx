@@ -18,7 +18,7 @@ export const SecurityCamerasPage = () => {
 			<TextBlock>
 				<p>
 					Enhance the security and safety of your property with our professional
-					security camera system installation services. At NSCO ELECTRIC we
+					security camera system installation services. At NSCO Electric, we
 					offer state-of-the-art surveillance solutions tailored to meet your
 					specific needs. Whether it’s for your home or business, our
 					experienced team will help design, install, and maintain a
