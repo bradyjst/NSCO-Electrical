@@ -9,14 +9,14 @@ export const Navbar: React.FC = () => {
 		<>
 			<nav className="navbar-container">
 				<div className="navbar-left">
-					<a className="navbar-link-nohover">
+					<a href="/" className="navbar-link">
 						<img className="logo" src="logo.png" />
 						NSCO Electric
 					</a>
 				</div>
 
 				<div className="navbar-center">
-					<a href="/index.html" className="navbar-link">
+					<a href="/" className="navbar-link">
 						Home
 					</a>
 					<a href="/about.html" className="navbar-link">
