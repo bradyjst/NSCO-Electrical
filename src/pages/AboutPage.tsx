@@ -7,8 +7,8 @@ export const AboutPage = () => {
 	return (
 		<Layout>
 			<Navbar />
-			<MapSection />
 			<CoverageAreas />
+			<MapSection />
 		</Layout>
 	);
 };
