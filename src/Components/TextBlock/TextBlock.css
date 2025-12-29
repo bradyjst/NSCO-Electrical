@@ -1,7 +1,7 @@
 .text-block {
 	width: 100%;
-	padding: 3rem 1rem;
 	background-color: #f3f3f3;
+	text-align: center;
 }
 
 .text-block-container {
@@ -14,6 +14,7 @@
 
 .text-block-container p {
 	font-size: 1.1rem;
+	margin: 3rem 1rem;
 	line-height: 1.7;
 	color: #444;
 }
