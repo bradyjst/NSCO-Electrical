@@ -29,7 +29,9 @@ export const SecurityCamerasPage = () => {
 			</TextBlock>
 
 			<ImageGallery
-				images={[{ src: "/securitycam1.avif", alt: "EV charger installation" }]}
+				images={[
+					{ src: "/securitycam1.avif", alt: "Security Camera Installation" },
+				]}
 			/>
 			<TextBlock>
 				<p>
