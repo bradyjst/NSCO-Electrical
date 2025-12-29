@@ -19,8 +19,8 @@ export const CoverageAreas = () => {
 					<li>Prince George</li>
 					<li>Mission</li>
 					<li>Pitt Meadows</li>
-					<li>Langley (City &amp; Township)</li>
 					<li>Maple Ridge</li>
+					<li>Langley (City &amp; Township)</li>
 				</ul>
 			</div>
 		</section>
