@@ -8,6 +8,7 @@ export const CoverageAreas = () => {
 				<ul className="coverage-list">
 					<li>Port Coquitlam</li>
 					<li>Port Moody</li>
+					<li>Coquitlam</li>
 					<li>New Westminster</li>
 					<li>Richmond</li>
 					<li>Delta</li>
