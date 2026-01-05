@@ -35,7 +35,12 @@ export const Navbar: React.FC = () => {
 				</div>
 
 				<div className="navbar-right">
-					<a className="navbar-link navbar-social">
+					<a
+						href="https://wa.me/17783342686"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="navbar-link navbar-social"
+					>
 						<p>Start a chat with me!</p>
 						<img src="whatsapp.png" alt="whatsapp icon" />
 					</a>
