@@ -36,7 +36,7 @@ export const Navbar: React.FC = () => {
 
 				<div className="navbar-right">
 					<a
-						href="https://wa.me/17783442686"
+						href="https://wa.me/17783442686?text=Hey%20I%20found%20your%20site%20and%20was%20hoping%20to%20get%20a%20quote"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="navbar-link navbar-social"
