@@ -35,15 +35,10 @@ export const Navbar: React.FC = () => {
 				</div>
 
 				<div className="navbar-right">
-					{/* <a className="navbar-link-nohover navbar-social">
-						<img src="facebook.avif" />
+					<a className="navbar-link navbar-social">
+						<p>Start a chat with me!</p>
+						<img src="whatsapp.png" alt="whatsapp icon" />
 					</a>
-					<a className="navbar-link-nohover navbar-social">
-						<img src="instagram.avif" />
-					</a>
-					<a className="navbar-link-nohover navbar-social">
-						<img src="linkedin.avif" />
-					</a> */}
 				</div>
 			</nav>
 
