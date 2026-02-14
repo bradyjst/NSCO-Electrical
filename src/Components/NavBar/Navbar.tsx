@@ -11,7 +11,7 @@ export const Navbar: React.FC = () => {
 				<div className="navbar-left">
 					<a href="/" className="navbar-link">
 						<img className="logo" src="logo.png" />
-						NSCO Electric
+						NSCO Electric LTD
 					</a>
 				</div>
 
