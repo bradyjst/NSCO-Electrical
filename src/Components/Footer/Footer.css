@@ -15,6 +15,7 @@
 .footer-col {
 	flex: 1;
 	display: flex;
+	font-size: small;
 	align-items: center;
 	margin-top: 3em;
 	margin-bottom: 3em;

@@ -16,10 +16,19 @@ export const Footer: React.FC = () => {
 						1-778-344-2686
 					</a>
 				</div>
-
-				<div className="footer-col footer-right">
+				<div className="footer-col footer-center">
 					<a href="mailto:info@nscoelectric.com" className="footer-link">
 						info@nscoelectric.com
+					</a>
+				</div>
+				<div className="footer-col footer-right">
+					<a
+						href="https://www.google.com/maps/search/?api=1&query=23795+133Ave+Maple+Ridge+BC"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="footer-link"
+					>
+						23795 133Ave Maple Ridge BC, V4R2T9
 					</a>
 				</div>
 			</div>
